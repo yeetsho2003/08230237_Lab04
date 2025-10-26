@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f2e6; /* light green background */
+    color: #004d00; /* dark green text */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #009900;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.card {
+    background-color: #ccffcc;
+    padding: 15px;
+    margin: 10px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #666666;
+}
+
+img {
+    max-width: 300px;
+    border-radius: 10px;
+}
